@@ -1,0 +1,384 @@
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+
+.mt-40 {
+  margin-top: 40px;
+}
+
+.mt-50 {
+  margin-top: 50px;
+}
+
+.section1 .section1-txt h2, .section2 .section2-txt h2, .section3 .section3-txt h2 {
+  font-size: 34px;
+  font-weight: bold;
+  color: #000000;
+  letter-spacing: 1.2px;
+  margin-bottom: 25px;
+}
+
+.section4 .sec4-head-txt h2, .student-testimonial .st-hear-txt h2, .why-sec .wy-head-txt h2, .faq-section .faq-head-txt h2 {
+  font-size: 34px;
+  font-weight: bold;
+  color: #000000;
+  letter-spacing: 1.2px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.section1 .section1-txt p, .section2 .section2-txt p, .section3 .section3-txt p, .section4 .offer-content .offer-content-box .offr-txt p {
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  line-height: 1.8;
+}
+
+.section1 .section1-txt a, .section4 .cta-btn a {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  background-color: #f47408;
+  border: 1px solid #f47408;
+  margin: 20px 0 20px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.section1 .section1-txt a:hover, .section4 .cta-btn a:hover {
+  color: #ff7300;
+  border: 1px solid #f47408;
+  background-color: #ffffff;
+}
+
+/*------------ Section 1 -------------*/
+.section1 {
+  padding: 50px 0;
+  background-color: #fffaf6;
+}
+
+.section1 .section1-txt p .far {
+  color: #f47408;
+  font-size: 14px;
+}
+
+.section1 .section1-img img {
+  width: 100%;
+}
+
+/*------------ Section 2 -------------*/
+.section2 {
+  padding: 50px 0;
+  background-color: #ffffff;
+  border-bottom: none;
+}
+
+.section2 .section2-img img {
+  width: 100%;
+}
+
+.section2 .section2-txt {
+  margin-top: 80px;
+}
+
+.section2 .section2-txt h2 {
+  margin-bottom: 15px;
+}
+
+.section2 .section2-txt p .far {
+  color: #f47408;
+}
+
+/*----------- Section3 --------------*/
+.section3 {
+  padding: 50px 0;
+  background-color: #fffaf6;
+  border-bottom: none;
+}
+
+.section3 .section3-txt {
+  margin-top: 90px;
+}
+
+.section3 .section3-txt p .far {
+  color: #f47408;
+}
+
+.section3 .section3-img img {
+  width: 100%;
+}
+
+/*----------- Section4 --------------*/
+.section4 {
+  background-color: #ffffff;
+  padding: 50px 0 10px;
+  border-bottom: none;
+}
+
+.section4 .offer-content {
+  padding: 20px 0 30px;
+}
+
+.section4 .offer-content .offer-content-box .offr-img img {
+  width: 110%;
+  border-radius: 50px;
+  -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+}
+
+.section4 .offer-content .offer-content-box .offr-txt {
+  margin-top: -10px;
+}
+
+.section4 .offer-content .offer-content-box .offr-txt h4 {
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 20px;
+}
+
+.section4 .table-content {
+  padding: 50px 0;
+}
+
+.section4 .table-content table tr,
+.section4 .table-content table th {
+  text-align: center;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+}
+
+.section4 .table-content table th {
+  font-size: 18px;
+  letter-spacing: 1.2px;
+}
+
+.section4 .table-content table tbody tr:hover {
+  background-color: #ffffff;
+}
+
+.section4 .table-content table td {
+  padding: 13px 0;
+}
+
+.section4 .cta-btn {
+  text-align: center;
+}
+
+/*------------ Student Testimonials ------------*/
+.student-testimonial {
+  background-color: #fffaf6;
+  padding: 50px 0 80px;
+  border-bottom: none;
+}
+
+.student-testimonial .textm-container {
+  margin-top: 50px;
+}
+
+.student-testimonial .textm-container .student-test-cont {
+  -webkit-box-shadow: 0 0 5px rgba(153, 153, 153, 0.2);
+          box-shadow: 0 0 5px rgba(153, 153, 153, 0.2);
+  border-radius: 4px;
+}
+
+.student-testimonial .textm-container .testm-box {
+  border: 1px solid #f1dbc7;
+  border-bottom: none;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  height: 45vh;
+}
+
+.student-testimonial .textm-container .testm-box iframe {
+  border-radius: 4px;
+  width: 100%;
+  height: 100%;
+  padding: 5px;
+  background-color: #ffffff;
+}
+
+.student-testimonial .textm-container .stud-txt {
+  letter-spacing: 0.5px;
+  padding: 5px 12px;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.testmonial2 {
+  padding: 120px 0 80px;
+  border-bottom: none;
+}
+
+.testmonial2 .testm2-box {
+  border: 1px solid #f47408;
+  border-radius: 5px;
+  position: relative;
+  height: 200px;
+  background-color: #fffaf6;
+}
+
+.testmonial2 .testm2-box .stud-img {
+  margin-bottom: 70px;
+}
+
+.testmonial2 .testm2-box .stud-img img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 2px solid #f47408;
+  position: absolute;
+  top: -50px;
+  left: 36%;
+}
+
+.testmonial2 .testm2-box .stud-txt2 {
+  text-align: center;
+}
+
+.testmonial2 .testm2-box .stud-txt2 p {
+  font-size: 18px;
+  letter-spacing: 0.5px;
+}
+
+.testmonial2 .testm2-box .stud-txt2 h4 {
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 0.8px;
+}
+
+/*------------ Counter Section ------------*/
+.counter-sec {
+  padding: 50px 0;
+  background-color: #f7941d;
+}
+
+.counter-sec .c-box .c-icon img {
+  width: 100%;
+  margin-top: 15px;
+}
+
+.counter-sec .c-box .c-txt h3 {
+  color: #fff;
+  font-size: 32px;
+  letter-spacing: 1.5px;
+  text-shadow: 0px 0px 3px #ababab;
+  display: inline-block;
+}
+
+.counter-sec .c-box .c-txt span {
+  font-size: 32px;
+  color: #fff;
+  display: inline-block;
+  text-shadow: 0px 0px 3px #ababab;
+}
+
+.counter-sec .c-box .c-txt p {
+  color: #fff;
+  letter-spacing: 0.5px;
+  font-size: 17px;
+}
+
+/*------------ Why Section ------------*/
+.why-sec {
+  padding: 50px 0;
+}
+
+.why-sec .why-container {
+  margin-top: 60px;
+}
+
+.why-sec .why-container .wy-box {
+  text-align: center;
+}
+
+.why-sec .why-container .wy-box img {
+  width: 35%;
+  display: inline-block;
+}
+
+.why-sec .why-container .wy-box p {
+  font-size: 18px;
+  margin-top: 20px;
+  letter-spacing: 0.5px;
+}
+
+/*------------ FAQ Section ------------*/
+.faq-section {
+  padding: 50px;
+}
+
+.faq-section .faq-container .panel-default > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: #f7941d;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  line-height: 1.8;
+}
+
+.faq-section .faq-container .panel-title > .small,
+.faq-section .faq-container .panel-title > .small > a,
+.faq-section .faq-container .panel-title > a,
+.faq-section .faq-container .panel-title > small,
+.faq-section .faq-container .panel-title > small > a {
+  color: inherit;
+  letter-spacing: 0.5px;
+  font-size: 18px;
+}
+
+.faq-section .faq-container .panel-group .panel {
+  border-color: #f7941d;
+}
+
+.faq-section .faq-container .panel-group .panel .panel-heading {
+  background-color: #ffffff;
+  border-color: #f7941d;
+}
+
+.faq-section .faq-container .panel-group .panel .panel-heading .panel-collapse .panel-body {
+  font-size: 14px;
+  border-top-color: #f7941d;
+  line-height: 28px;
+  letter-spacing: 0.6px;
+}
+
+.faq-section .faq-container .panel-group .panel .panel-heading .panel-title > a:before {
+  float: right !important;
+  font-family: FontAwesome;
+  content: "-";
+  padding-right: 5px;
+  font-size: 36px;
+  line-height: 10px;
+  font-weight: bold;
+}
+
+.faq-section .faq-container .panel-group .panel .panel-heading .panel-title > a.collapsed:before {
+  float: right !important;
+  content: "+";
+  font-size: 25px;
+  line-height: 17px;
+  font-weight: bold;
+}
+
+.faq-section .faq-container .panel-group .panel .panel-heading .panel-title > a:hover,
+.faq-section .faq-container .panel-group .panel .panel-heading .panel-title > a:active,
+.faq-section .faq-container .panel-group .panel .panel-heading .panel-title > a:focus {
+  text-decoration: none;
+}
+/*# sourceMappingURL=style.css.map */
