@@ -16,6 +16,11 @@ body {
 .mt-30 {
     margin-top: 30px;
 }
+.rmt-30{
+    @media (max-width:576px){
+        margin-top: 30px;
+    }
+}
 
 .mt-40 {
     margin-top: 40px;
@@ -24,6 +29,9 @@ body {
 .mt-50 {
     margin-top: 50px;
 }
+.mt-60 {
+    margin-top: 60px;
+}
 
 %heading-txt {
     font-size: 34px;
@@ -31,6 +39,9 @@ body {
     color: #000000;
     letter-spacing: 1.2px;
     margin-bottom: 25px;
+    @media (max-width:576px) {
+        font-size: 25px;
+    }
 }
 
 %heading-txt-center {
@@ -40,12 +51,18 @@ body {
     letter-spacing: 1.2px;
     margin-bottom: 25px;
     text-align: center;
+    @media (max-width:576px) {
+        font-size: 25px;
+    }
 }
 
 %p-txt {
     font-size: 16px;
     letter-spacing: 0.5px;
     line-height: 1.8;
+    @media (max-width:576px) {
+        font-size: 15px;
+    }
 }
 
 %cta-btn {
@@ -57,6 +74,10 @@ body {
     border: 1px solid #f47408;
     margin: 20px 0 20px;
     transition: 0.3s;
+    @media (max-width:576px) {
+        font-size: 17px;
+        padding: 7px 15px;
+    }
 
     &:hover {
         color: #ff7300;
@@ -119,7 +140,9 @@ $border-bottom: none;
 
     .section2-txt {
         margin-top: 80px;
-
+        @media (max-width:576px){
+            margin-top: 25px;
+        }
         h2 {
             @extend %heading-txt;
             margin-bottom: 15px;
@@ -143,7 +166,9 @@ $border-bottom: none;
 
     .section3-txt {
         margin-top: 90px;
-
+        @media (max-width:576px){
+            margin-top: 0px;
+        }
         h2 {
             @extend %heading-txt;
         }
@@ -181,20 +206,32 @@ $border-bottom: none;
 
         .offer-content-box {
             .offr-img {
+                @media (max-width:576px){
+                    text-align: center;
+                }
                 img {
                     width: 110%;
                     border-radius: 50px;
                     box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+                    @media (max-width:576px){
+                        width: 20%;
+                    }
                 }
             }
 
             .offr-txt {
                 margin-top: -10px;
-
+                @media (max-width:576px){
+                    text-align: center;
+                    margin-top: 10px;
+                }
                 h4 {
                     font-weight: bold;
                     letter-spacing: 1px;
                     font-size: 20px;
+                    @media (max-width:576px){
+                        font-size: 18px;
+                    }
 
                 }
 
@@ -260,7 +297,9 @@ $border-bottom: none;
 
     .textm-container {
         margin-top: 50px;
-
+        @media (max-width:576px){
+            margin-top: 40px;
+        }
         .student-test-cont {
             box-shadow: 0 0 5px rgba(153, 153, 153, 0.2);
             border-radius: 4px;
@@ -298,6 +337,9 @@ $border-bottom: none;
 .testmonial2 {
     padding: 120px 0 80px;
     border-bottom: $border-bottom;
+    @media (max-width:576px){
+        padding: 90px 0 80px;
+    }
 
     .testm2-box {
         border: 1px solid #f47408;
@@ -344,20 +386,30 @@ $border-bottom: none;
 
     .c-box {
         .c-icon {
+            text-align: center;
             img {
                 width: 100%;
                 margin-top: 15px;
+                @media (max-width:576px){
+                    width: 20%;
+                    margin-top: 0;
+                }
             }
         }
 
         .c-txt {
+            @media (max-width:576px){
+                text-align: center;
+            }
             h3 {
                 color: #fff;
                 font-size: 32px;
                 letter-spacing: 1.5px;
                 text-shadow: 0px 0px 3px #ababab;
                 display: inline-block;
-
+                @media (max-width:576px){
+                    font-size: 28px;;
+                }
             }
 
             span {
@@ -378,7 +430,7 @@ $border-bottom: none;
 
 /*------------ Why Section ------------*/
 .why-sec {
-    padding: 50px 0;
+    padding: 50px 0 0;
 
     .wy-head-txt {
         h2 {
@@ -388,14 +440,19 @@ $border-bottom: none;
 
     .why-container {
         margin-top: 60px;
-
+        @media (max-width:576px){
+            margin-top: 45px;
+        }
         .wy-box {
             // border: 1px solid rgba(0, 0, 0, 0.2);
             text-align: center;
-
+            margin-bottom: 40px;
             img {
                 width: 35%;
                 display: inline-block;
+                @media (max-width:576px){
+                    width: 25%;
+                }
             }
 
             p {
@@ -410,7 +467,9 @@ $border-bottom: none;
 /*------------ FAQ Section ------------*/
 .faq-section {
     padding: 50px;
-
+    @media (max-width:576px){
+        padding: 0;
+    }
     .faq-head-txt {
         h2 {
             @extend %heading-txt-center;
@@ -438,7 +497,7 @@ $border-bottom: none;
         .panel-group {
             .panel {
                 border-color: #f7941d;
-
+                margin-bottom: 12px;
                 .panel-heading {
                     background-color: #ffffff;
                     border-color: #f7941d;
@@ -460,6 +519,9 @@ $border-bottom: none;
                         font-size: 36px;
                         line-height: 10px;
                         font-weight: bold;
+                        @media (max-width:576px){
+                            line-height: 35px;
+                        }
                     }
 
                     .panel-title>a.collapsed:before {
@@ -468,6 +530,9 @@ $border-bottom: none;
                         font-size: 25px;
                         line-height: 17px;
                         font-weight: bold;
+                        @media (max-width:576px){
+                            line-height: 35px;
+                        }
                     }
 
                     .panel-title>a:hover,
