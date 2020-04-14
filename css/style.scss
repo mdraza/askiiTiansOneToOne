@@ -30,7 +30,9 @@ body {
     margin-top: 50px;
 }
 .mt-60 {
-    margin-top: 60px;
+    @media (max-width:576px){
+        margin-top: 60px;
+    }
 }
 
 %heading-txt {

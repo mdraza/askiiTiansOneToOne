@@ -32,8 +32,10 @@ body {
   margin-top: 50px;
 }
 
-.mt-60 {
-  margin-top: 60px;
+@media (max-width: 576px) {
+  .mt-60 {
+    margin-top: 60px;
+  }
 }
 
 .section1 .section1-txt h2, .section2 .section2-txt h2, .section3 .section3-txt h2 {
